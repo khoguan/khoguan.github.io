@@ -1,0 +1,85 @@
+# The layout text of site
+
+# ----- Commons label -----
+
+layout:
+  post: 文章
+  category: 分類
+  tag: 標籤
+
+# The tabs of sidebar
+tabs:
+  # format: <filename_without_extension>: <value>
+  home: 首頁
+  categories: 分類
+  tags: 標籤
+  archives: 封存
+  about: 關於
+
+# the text displayed in the search bar & search results
+search:
+  hint: 搜揣
+  cancel: 取消
+  no_results: 歹勢，揣無
+
+panel:
+  lastmod: 最近更新
+  trending_tags: 熱門標籤
+  toc: 文章摘要
+
+copyright:
+  # Shown at the bottom of the post
+  license:
+    template: 本文章以 :LICENSE_NAME 授權
+    name: CC BY SA 4.0
+    link: https://creativecommons.org/licenses/by-sa/4.0/
+
+  # Displayed in the footer
+  brief: 保留部份權利。
+  verbose: >-
+    除非另有說明，否則本網誌之文章均由作者按照姓名標示-相同方式分享 4.0 國際 (CC BY SA 4.0) 授權條款進行授權。
+meta: 本網站使用 :PLATFORM 產生，採用 :THEME 主題。
+
+not_found:
+  statment: 抱歉，您可能正在存取一個已被移動的 URL，或者它從未存在。
+  statment: 歹勢，汝可能咧存取一个已經徙位，凡勢仔是無存在過个 URL。
+
+notification:
+  update_found: 發現新版本更新。
+  update: 更新
+
+# ----- Posts related labels -----
+
+post:
+  written_by: 作者
+  posted: 發布於
+  updated: 更新於
+  words: 字
+  pageview_measure: 擺瀏覽
+  read_time:
+    unit: 分鐘
+    prompt: 閱讀
+  relate_posts: 相關文章
+  share: 分享
+  button:
+    next: 下一篇
+    previous: 頂一篇
+    copy_code:
+      succeed: 已複製！
+    share_link:
+      title: 分享連結
+      succeed: 已複製連結！
+  # pinned prompt of posts list on homepage
+  pin_prompt: 冠頂
+
+# Date time format.
+# See: <http://strftime.net/>, <https://day.js.org/docs/en/display/format>
+df:
+  post:
+    strftime: '%Y/%m/%d'
+    dayjs: 'YYYY/MM/DD'
+
+# categories page
+categories:
+  category_measure: 个分類
+  post_measure: 篇文章
