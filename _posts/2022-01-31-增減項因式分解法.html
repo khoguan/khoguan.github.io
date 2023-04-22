@@ -1,0 +1,64 @@
+---
+layout: post
+title: 增減項因式分解法
+date: '2022-01-31T23:08:00.003-08:00'
+author: 潘科元
+category: [數學, 多項式]
+math: true
+blogger_id: tag:blogger.com,1999:blog-7832241202417428645.post-5631233980753239331
+blogger_orig_url: https://khoguanmath.blogspot.com/2022/01/blog-post_31.html
+---
+
+<p>佇 Youtube 个 "<a href="https://www.youtube.com/channel/UCjCsIDReFsUFgsXNrOh5w2A/videos" rel="nofollow" target="_blank">360 KNOWLEDGE WORLD</a>" 看著即題个因式分解，是用「增減項」个技巧來鬥出會使先佇局部進行因式分解个「場面」, 即種解題法加減著靠靈感佮試誤：
+</p>
+\begin{equation}
+\begin{aligned}
+ &amp; \kern+0.4em \kern+0.4em \thinspace x^{7} +x^{5} +1\\
+ &amp; =x^{7} +x^{6} +x^{5} -x^{6} +1\\
+ &amp; =x^{5}\left( x^{2} +x+1\right) -\left( x^{6} -1\right)\\
+ &amp; =x^{5}\left( x^{2} +x+1\right) -\left( x^{3} +1\right)\left( x^{3} -1\right)\\
+ &amp; =x^{5}\left( x^{2} +x+1\right) -\left( x^{3} +1\right)( x-1)\left( x^{2} +x+1\right)\\
+ &amp; =\left( x^{2} +x+1\right)\left[ x^{5} -\left( x^{3} +1\right)( x-1)\right]\\
+ &amp; =\left( x^{2} +x+1\right)\left[ x^{5} -\left( x^{4} -x^{3} +x-1\right)\right]\\
+ &amp; =\left( x^{2} +x+1\right)\left( x^{5} -x^{4} +x^{3} -x+1\right)
+\end{aligned}
+\end{equation}
+<p>
+伊另外有一題是 $\displaystyle x^{7} +x^{2} +1$，我想著會使利用類似伊頂面个技巧，不過略仔較複雜，因為愛增兩項、減兩項：
+</p>
+\begin{equation*}
+\begin{aligned}
+ &amp; \kern+0.4em \kern+0.4em \thinspace x^{7} +x^{2} +1\\
+ &amp; =x^{7} +x^{6} +x^{5} -x^{5} +x^{2} -x^{6} +1\\
+ &amp; =x^{5}\left( x^{2} +x+1\right) -x^{2}\left( x^{3} -1\right) -\left( x^{6} -1\right)\\
+ &amp; =x^{5}\left( x^{2} +x+1\right) -x^{2}( x-1)\left( x^{2} +x+1\right) -\left( x^{3} +1\right)( x-1)\left( x^{2} +x+1\right)\\
+ &amp; =\left( x^{2} +x+1\right)\left( x^{5} -x^{3} +x^{2} -x^{4} +x^{3} -x+1\right)\\
+ &amp; =\left( x^{2} +x+1\right)\left( x^{5} -x^{4} +x^{2} -x+1\right)
+\end{aligned}
+\end{equation*}
+<p>
+我做出來了後去對照伊个解法，發現伊拄開始是增一項、減一項：
+</p>
+\begin{equation*}
+\begin{aligned}
+ &amp; \kern+0.4em \kern+0.4em \thinspace x^{7} +x^{2} +1\\
+ &amp; =x^{7} -x^{4} +x^{4} +x^{2} +1\\
+ &amp; =x^{4}\left( x^{3} -1\right) +\left( x^{4} +x^{2} +1\right)\\
+ &amp; =x^{4}\left( x^{3} -1\right) +\left( x^{4} +2x^{2} +1-x^{2}\right)\\
+ &amp; =x^{4}\left( x^{3} -1\right) +\left[\left( x^{2} +1\right)^{2} -x^{2}\right]\\
+ &amp; =x^{4}( x-1)\left( x^{2} +x+1\right) +\left( x^{2} +x+1\right)\left( x^{2} -x+1\right)\\
+ &amp; =\left( x^{2} +x+1\right)\left( x^{5} -x^{4} +x^{2} -x+1\right)
+\end{aligned}
+\end{equation*}
+<p>
+伊閣有一題，是佇上頭前迄條 $\displaystyle x^{7} +x^{5} +1=\left( x^{2} +x+1\right)\left( x^{5} -x^{4} +x^{3} -x+1\right)$ 个基礎頂面閣發揮：
+</p>
+\begin{equation*}
+\begin{aligned}
+ &amp; \kern+0.4em \kern+0.4em \thinspace x^{10} +x^{5} +1\\
+ &amp; =x^{10} -x^{7} +x^{7} +x^{5} +1\\
+ &amp; =x^{7}\left( x^{3} -1\right) +\left( x^{7} +x^{5} +1\right)\\
+ &amp; =x^{7}( x-1)\left( x^{2} +x+1\right) +\left( x^{2} +x+1\right)\left( x^{5} -x^{4} +x^{3} -x+1\right)\\
+ &amp; =\left( x^{2} +x+1\right)\left( x^{8} -x^{7} +x^{5} -x^{4} +x^{3} -x+1\right)
+\end{aligned}
+\end{equation*}

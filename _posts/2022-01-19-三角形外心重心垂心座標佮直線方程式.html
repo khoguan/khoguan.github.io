@@ -1,0 +1,61 @@
+---
+layout: post
+title: 三角形外心、重心、垂心座標佮直線方程式
+date: '2022-01-19T09:13:00.013-08:00'
+author: 潘科元
+category: [數學, 歐氏幾何]
+math: true
+blogger_id: tag:blogger.com,1999:blog-7832241202417428645.post-3673990735813000286
+blogger_orig_url: https://khoguanmath.blogspot.com/2022/01/blog-post_19.html
+---
+
+<p>任意三角形攏是：三內角平分線交於一點（內心）、三中垂線交於一點（外心）、三中線交於一點（重心）、三垂線交於一點（垂心）、一內角平分線佮兩外角平分線交於一點（旁心）。這攏會使得用歐氏幾何來證明，也會使得用解析幾何來證明。
+</p>
+
+<p>
+我家己用解析幾何法驗證過外心 $\displaystyle O$、重心 $\displaystyle G$、垂心 $\displaystyle H$ 攏有三線仝點个事實。將三角形三頂點的座標設做 $\displaystyle ( 0,0) ,\ ( 2c,\ 0) ,\ ( 2a,\ 2b)$ 來算上方便，算出：
+</p>
+
+
+<p>
+\begin{gather*}
+外心\ O=\left( c,\ \frac{a^{2} +b^{2} -ac}{b}\right)\\
+重心\ G=\left(\frac{2( a+c)}{3} ,\frac{2b}{3}\right)\\
+垂心\ H=\left( 2a,\ \frac{2a( c-a)}{b}\right)\\
+\frac{|\overline{OG} |}{|\overline{GH|}} =\frac{1}{2}\\
+\\
+O,\ G,\ H\ 三點共線，其直線方程式為：\\
+\left( 3a^{2} +b^{2} -3ac\right) x-( bc-2ab) y+\left( 2ac^{2} -2ab^{2} -2a^{3}\right) =0.
+\end{gather*}
+  </p>
+
+<p>
+  若座標改做 $\displaystyle ( 0,0) ,\ ( c,0) ,\ ( a,b)$ 者：
+
+</p><p>
+\begin{gather*}
+外心\ O=\left(\frac{c}{2} ,\ \frac{a^{2} +b^{2} -ac}{2b}\right)\\
+重心\ G=\left(\frac{a+c}{3} ,\ \frac{b}{3}\right)\\
+垂心\ H\ =\ \left( a,\ \frac{a( c-a)}{b}\right)\\
+\\
+O,\ G,\ H\ 三點共線个直線方程式是：\\
+\overleftrightarrow{OGH} =\left( 3a^{2} +b^{2} -3ac\right) x-( bc-2ac) y+\left( ac^{2} -ab^{2} -a^{3}\right) =0.\\
+即條線叫做Euler線。\\以上个三角形袂使得是正三角形，因為正三角形四心共點，就連袂出一條直線。
+\end{gather*}
+</p>
+<p>
+欲證明三點共線[kāng-suànn]，有兩種方法，我先算出 $\displaystyle O,\ G$ 兩點所成个直線方程式，閣算出 $\displaystyle G,\ H$ 兩點所成个直線方程式，兩條方程式仝款，按呢三點就是共線。閣一種方法就是分別算出兩點之間个距離，總共三段距離，只要其中兩段距離加起來等於第三段，按呢三點的確是共線。（台語「的確[tik-khak]」是「必定」个意思。）
+</p>
+<p>
+假使將三角形頂點座標設做 $\displaystyle ( x_{1} ,y_{1}) ,\ ( x_{2} ,y_{2}) ,\ ( x_{3} ,y_{3})$，按呢干焦用解析幾何法欲算出重心座標，我寫甲霧sà-sà，算袂出結果。總是，用傳統歐氏幾何畫出輔助線（兩邊个中點相連），先判斷出三中線交會佇各自个$\displaystyle {\textstyle \frac{2}{3}}$處，進一步用相似三角形對邊成比例个原理，就會使得出：
+</p>
+<p>
+\begin{equation*}
+三角形三頂點是\ ( x_{1} ,y_{1}) ,\ ( x_{2} ,y_{2}) ,\ ( x_{3} ,y_{3}) ，按呢重心就是：
+\\
+\left(\frac{x_{1} +x_{2} +x_{3}}{3} ,\ \frac{y_{1} +y_{2} +y_{3}}{3}\right) 。
+\end{equation*}
+</p>
+<p>
+用即个一般性个重心公式翻頭去套用我頭前所設个方便座標，也會使證明頭前所列个重心座標有影。
+</p>

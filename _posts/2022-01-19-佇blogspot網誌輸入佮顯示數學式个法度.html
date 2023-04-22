@@ -1,0 +1,13 @@
+---
+layout: post
+title: 佇blogspot網誌輸入佮顯示數學式个法度
+date: '2022-01-19T10:03:00.003-08:00'
+author: 潘科元
+category: [數學, 數學排版]
+math: true
+blogger_id: tag:blogger.com,1999:blog-7832241202417428645.post-848504755722981317
+blogger_orig_url: https://khoguanmath.blogspot.com/2022/01/blogspot.html
+---
+
+研究規工，總算試出來矣！佇 blogspot.com 網誌輸入數學式个法度，著利用 MathJax 配合 Mathcha：
+<div><br /></div><div>參考 <a href="https://tex.stackexchange.com/questions/76502/is-there-any-mathematical-blog-support-latex" target="_blank">Is there any mathematical blog support latex?</a>&nbsp;先點 blogspot 右上角「設計」，閣點「主題 -&gt; 自訂(編輯HTML)」，佇 &lt;head&gt;下跤增加 MathJax 所提供个數學式轉換服務佮設定：</div><div><br /></div><div><div></div><blockquote><div>&lt;script type="text/x-mathjax-config"&gt;</div><div>&nbsp; MathJax.Hub.Config({</div><div>&nbsp; extensions: ["tex2jax.js"],</div><div>&nbsp; &nbsp;jax: ["input/TeX", "output/HTML-CSS"],</div><div>&nbsp; &nbsp;tex2jax: {</div><div>&nbsp; &nbsp; &nbsp;inlineMath: [[ '\$','\$']],</div><div>&nbsp; &nbsp; &nbsp;displayMath:&nbsp; [['\$\$','\$\$']],</div><div>&nbsp; &nbsp; &nbsp;processEscapes: true</div><div>&nbsp; &nbsp;},</div><div>&nbsp; &nbsp;"HTML-CSS": { availableFonts: ["TeX"] }</div><div>&nbsp; });</div><div>&lt;/script&gt;&nbsp;</div><div><br /></div><div>&lt;script type="text/javascript"&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</div><div>&nbsp;src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"&gt;</div><div>&lt;/script&gt;</div></blockquote><div></div></div><div>存起來。</div><div><br /></div><div>了後去&nbsp;<a href="https://www.mathcha.io/" target="_blank">Mathcha - Online Mathematics Editor</a>&nbsp;利用伊線頂个數學式編輯器，將咱个數學文章佇遐扑予好勢，規篇反白，選 Menu -&gt; Export Selection to Latex -&gt; Copy to Clipboard。了後來 blogspot.com 即爿，開一篇新文章，佇「HTML檢視」模式，將電腦 Clipboard（剪貼簿）內底个文字貼過來，適當補上一寡 &lt;p&gt; tags 來將文章分段予好看。最後就會使得發布矣。</div><div><br /></div><div>注意：按呢設好了後，因為伊是用前後个 \$ 記號去表示其中所夾--个是需要特別處理轉換个數學式，所以此去若欲扑普通个 \$ 記號，愛會記得頭前愛加扑一个反斜線 \。</div><div><br /></div><div><br /></div>
