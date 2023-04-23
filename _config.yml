@@ -18,9 +18,9 @@ timezone: Asia/Taipei
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: 台語文理想國新站 # the main title
+title: 潘科元台語文理想國 # the main title
 
-tagline: 潘科元台語文理想國新站當咧抾集我佇blog.xuite.net/khoguan部落格个文章，閣有佇Facebook所寫个網誌。 # it will display as the sub-title
+tagline: 當咧將舊站blog.xuite.net/khoguan个文章，閣有佇Facebook所寫个網誌，攏設法搬徙過來。 # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   因為blog.xuite.net欲收擔矣，我重起一个潘科元台語文理想國新站，按算將我佇面冊个網誌也收入來。
