@@ -5,6 +5,7 @@ date: 2023-04-18 23:50:00 +0800
 categories: [0總類]
 tags: [facebook]     # TAG names should always be lowercase
 pin: true
+image: /assets/too/大雪山1200x630.jpg
 ---
 
 對 2010 年到 2020 年，拄好十年个歲月，我用 Facebook 个網誌(Note) 功能總共發表過 314 篇文章，差不多攏是寫台文咧討論台語文問題（有少數幾篇是寫生活感想、電腦科技、政治tsiù-tshàm等等），也有幾篇仔是寫華文，但是猶原是咧議論台語問題。
