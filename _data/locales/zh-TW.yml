@@ -52,13 +52,13 @@ notification:
 
 post:
   written_by: 作者
-  posted: 發布於
-  updated: 更新於
+  posted: 鋪出日 
+  updated: 更新日
   words: 字
   pageview_measure: 擺瀏覽
-  read_time:
-    unit: 分鐘
-    prompt: 閱讀
+  # read_time:
+    # unit: 分鐘
+    # prompt: 閱讀
   relate_posts: 相關文章
   share: 分享
   button:
