@@ -10,11 +10,11 @@ layout:
 # The tabs of sidebar
 tabs:
   # format: <filename_without_extension>: <value>
-  home: 首頁
-  categories: 分類
-  tags: 標籤
-  archives: 年表 
-  about: 關於
+  home: 頭頁
+  categories: 文章分類
+  tags: 文章標籤
+  archives: 文章年表 
+  about: 關係本站
 
 # the text displayed in the search bar & search results
 search:
