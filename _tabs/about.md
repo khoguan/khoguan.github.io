@@ -12,7 +12,7 @@ order: 4
 > 手寫台語文  
 {: .prompt-tip}
 
-## 台語文理想國舊站
+## 🏚️ 台語文理想國舊站
 
 十外年前，部落格（英文weblog/blog，也叫做網誌\[bāng-tsì\]）當興\[tng hing\]，
 我也去中華電信推出个部落格服務站 blog.xuite.net 開設三本網誌：
@@ -35,13 +35,13 @@ order: 4
 佇「蟫魚」鋪出 27 篇，計共 1011 篇文字。差不多攏是寫台語文，有幾篇仔寫華文，
 也是咧討論台語文个問題。
 
-## xuite.net 宣布收擔
+## 😿 xuite.net 宣布收擔
 
 因為新型態个社群網站興起，像面冊(Facebook)、Instagram、Line，將群眾攏吸引過去，
 舊型个部落格漸漸少儂愛用，xuite 到今年2023也經營袂落去，公告講欲關站矣。
 我著緊揣所在將遐个「家己褒，袂臭臊」个文章攏轉移出去。
 
-## 揣所在徙岫
+## 🪺 揣所在徙岫
 
 本來欲將理想國新站徙去我早就有設\-\-个，佇 khoguan.blogspot.com 个網誌，
 過程中有拄著一寡限制，像講伊無容允用戶一日上傳超過50篇文，閣有各種無利便。
@@ -49,7 +49,7 @@ order: 4
 佇面冊看著巷仔內个朋友 Pektiong 兄相報，講會使利用 Github Pages。
 我研究、試用了感覺袂䆀，就是各位目睭前看著个即个站。
 
-## 用 Github Pages 囥我个網誌
+## 🏡 用 Github Pages 囥我个網誌
 
 Github Pages 適合有程式編寫、網站設計个概念个儂使用。踮家己个電腦安裝
 Jekyll 程式套件，配合佛心人士提供个免費網站主題(theme)，建置\[kiàn-tì\]
@@ -59,3 +59,10 @@ Jekyll 程式套件，配合佛心人士提供个免費網站主題(theme)，建
 Github Pages + Jekyll 所建置出來个網站，也具備 PWA (Progressive
 Web Application)个功能，予使用者下載來家己个電腦、手機仔，變成一个 App，
 予咱个網誌个愛護者閣較方便來收讀。
+
+## ☕️ 討咖啡
+
+恁若感覺本站个文章對恁有路用，有歡喜請小弟啉咖啡，會通利用 ko-fi.com 个服務，
+用 Paypal 抑是信用卡寄付予小弟。勞力、感恩！🤗  
+連結佇遮：[![Ko-fi](https://img.shields.io/badge/-Buy%20Me%20a%20Coffee-ff5f5f?logo=ko-fi&logoColor=white)](https://ko-fi.com/khoguan)
+
