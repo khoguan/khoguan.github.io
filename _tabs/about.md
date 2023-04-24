@@ -62,7 +62,20 @@ Web Application)个功能，予使用者下載來家己个電腦、手機仔，�
 
 ## ☕️ 討咖啡
 
-恁若感覺本站个文章對恁有路用，有歡喜請小弟啉咖啡，會通利用 ko-fi.com 个服務，
-用 Paypal 抑是信用卡寄付予小弟。勞力、感恩！🤗  
-連結佇遮：[![Ko-fi](https://img.shields.io/badge/-Buy%20Me%20a%20Coffee-ff5f5f?logo=ko-fi&logoColor=white)](https://ko-fi.com/khoguan)
+恁若感覺本站个文章對恁有路用，有歡喜請小弟啉咖啡，台灣地區个朋友會通劃撥來寄付，
+金額濟少隨意。
+透過手機仔「行動郵局」app（[安裝網址](https://www.post.gov.tw/post/internet/Group/QRCODE.jsp)），
+抑是上網連去「[郵局網路ATM](https://webatm.post.gov.tw/)」，抑是直接去郵局櫃台劃撥攏會用得。
+感恩！🤗   
 
+> 郵局劃撥帳號：12403501  
+> 戶名：潘科元
+
+郵撥三種方式，「行動郵局」app算上方便，點開登入了後，手機畫面下底有
+「帳戶、轉帳、自訂、優惠」等。請點「轉帳」，了後選「臺幣轉帳」，轉入銀行點選
+「700 中華郵政股份有限公司」，轉入帳號就是頂面所寫个八位數劃撥號碼。
+其他个欄位一下看就了解囉。
+
+若是海外个朋友，有「非台灣」个 Paypal 口座，就會使得利用 ko-fi.com
+个服務來助贈[tsōo-tsān]小弟，金額單位是美金：
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J3KOCDI)
