@@ -64,7 +64,7 @@ Web Application)个功能，予使用者下載來家己个電腦、手機仔，�
 
 恁若感覺本站个文章對恁有路用，有歡喜請小弟啉咖啡，台灣地區个朋友會通劃撥來寄付，
 金額濟少隨意。
-透過手機仔「行動郵局」app（[安裝網址](https://www.post.gov.tw/post/internet/Group/QRCODE.jsp)），
+透過手機仔「行動郵局」app（[手機仔安裝網址](https://www.post.gov.tw/post/internet/Group/QRCODE.jsp)），
 抑是上網連去「[郵局網路ATM](https://webatm.post.gov.tw/)」，抑是直接去郵局櫃台劃撥攏會用得。
 感恩！🤗   
 
