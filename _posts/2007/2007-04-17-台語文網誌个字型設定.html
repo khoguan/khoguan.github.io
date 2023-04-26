@@ -3,7 +3,7 @@ layout: post
 title: 台語文網誌个字型設定
 date: 2007-04-17 02:16:04 +0800
 author: 潘科元
-category: [台語文資訊處理]
+categories: [台語文資訊處理]
 ---
 
 <p>台語文網誌卜設定字型，予伊會得sù-sī浮出台羅符號，有兩款法度。一款是佇「自定樣式(CSS)」遐修改 font-family 个指定字型，將有支援台羅个字型排做前；一款是佇每一篇網誌个起頭，將網誌个扑字方式先切過去HTML原始碼个操作模式，家治指定字型，指定好，才閣切轉來用卡好用个介面來扑字就可以。</p><p>第一款，可比講佇 xuite blog，會使按呢設[siat]：</p><p>/*文章主體*/<br />.blogbody{<br /> word-wrap: break-word; <br /> /* font-family: &quot;Verdana&quot;, &quot;Arial&quot;, &quot;Helvetica&quot;, &quot;sans-serif&quot;; */<br /> font-family: &quot;Taigi Unicode&quot;, &quot;Doulos SIL&quot;, &quot;Charis SIL&quot;, &quot;Lucida Sans Unicode&quot;, serif; <br /> font-size: 17px;<br /> letter-spacing: 0.1ex;<br /> line-height: 1.6;<br /> ccolor: #202020;<br /> width:100%;<br />}</p><p>/*留言內容*/<br />.commenttext{<br /> word-wrap: break-word; <br /> width:100%;<br /> margin-top:10px;<br /> margin-bottom:10px;<br /> color: #454545;<br /> font-size: 11pt;<br /> font-family: &quot;Taigi Unicode&quot;, &quot;Doulos SIL&quot;, &quot;Charis SIL&quot;, &quot;Lucida Sans Unicode&quot;, serif;<br /> letter-spacing: 0.2ex;<br />}</p><p>第二款直接扑 HTML 標籤，有兩種，一種是舊式个，一種是新式个。舊式个：</p><p>&lt;font face=&quot;Taigi Unicode&quot;&gt;....&lt;/font&gt;</p><p>新式个：</p><p>&lt;span style=&quot;font-family: 'Taigi Unicode', 'Lucida Sans Unicode', 'Arial Unicode MS', serif&quot;&gt;...&lt;/span&gt;</p><p>以上，加減愛捌寡網頁製作个智識。無基礎个儂，恐驚做無路來。</p>
