@@ -86,7 +86,7 @@ avatar: '/assets/img/avatar.png'
 toc: true
 
 comments:
-  active: facebook # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
+  active: disqus # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
   # The active options are as follows:
   facebook:
     appleid: 136288326085095
