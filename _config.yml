@@ -26,7 +26,8 @@ description: >- # used by seo meta and the atom feed
   因為blog.xuite.net欲收擔矣，我重起一个潘科元台語文理想國新站，按算將我佇面冊个網誌也收入來。
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: "https://khoguan.github.io"
+#url: "https://khoguan.github.io"
+url: "https://taigi.page"
 
 github:
   username: khoguan # change to your github username
@@ -38,7 +39,7 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: 潘科元
-  email: khoguanp@yahoo.com # change to your email address
+  email: admin@taigi.page # change to your email address
   links:
     - https://www.facebook.com/khoguan
     # The first element serves as the copyright owner's link
