@@ -6,7 +6,7 @@
   And it must be defined before `@import`.
 */
 $tab-count: {{ site.tabs | size | plus: 1 }}; // plus 1 for home tab
-
+@import url(https://tauhu.tw/tauhu-oo.css);
 @import "{{ site.theme }}";
 
 /* append your custom style below */
@@ -22,5 +22,5 @@ blockquote {
   color: #8c5fe3;
   font-weight: 550;
   /* font-size:   1.1em; */
-  font-family: 'TWKAI', 'Charis SIL', 'Dejavu Serif', 'Times New Roman', 'DFKai-SB', 'BiauKaiTC-Regular', serif;
+  font-family: tauhu-oo ,'TWKAI', 'Charis SIL', 'Dejavu Serif', 'Times New Roman', 'DFKai-SB', 'BiauKaiTC-Regular', serif;
 }
