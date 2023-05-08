@@ -70,7 +70,7 @@ Web Application)个功能，予使用者下載來家己个電腦、手機仔，�
 > 郵局劃撥帳號：12403501  
 > 戶名：潘科元
 
-若是海外个朋友，有「非台灣」个 Paypal 口座，就會使得利用 ko-fi.com
-个服務來支持小弟，金額單位是美金：
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J3KOCDI)
-勞力！
+若是海外个朋友，有「非台灣」个 Paypal 口座抑是信用卡，就會使得利用
+ko-fi.com 个服務來支持小弟，金額單位是美金，勞力！請點下面个鈕仔：
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg){: w="223" h="30" }](https://ko-fi.com/J3J3KOCDI)
