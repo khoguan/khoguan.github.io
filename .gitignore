@@ -2,6 +2,7 @@
 .jekyll-metadata
 bin
 tmp
+_drafts
 
 # Bundler cache
 .bundle
