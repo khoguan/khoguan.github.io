@@ -60,6 +60,9 @@ Github Pages + Jekyll 所建置出來个網站，也具備 PWA (Progressive
 Web Application)个功能，予使用者下載來家己个電腦、手機仔，變成一个 App，
 予咱个網誌个愛護者閣較方便來收讀。
 
+建置本站个技術細節，請參考我佇本站个Github repo所寫个
+[README](https://github.com/khoguan/khoguan.github.io#readme)。
+
 ## ☕️ 討咖啡
 
 各位若感覺本站个文章對恁有路用，有歡喜助贈\[tsōo-tsān\]小弟繼續寫落去，
