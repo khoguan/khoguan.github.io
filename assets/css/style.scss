@@ -11,6 +11,14 @@ $tab-count: {{ site.tabs | size | plus: 1 }}; // plus 1 for home tab
 
 /* append your custom style below */
 
+/*
+  /.gem/ruby/3.1.4/gems/jekyll-theme-chirpy-5.6.1/_sass/addon/module.scss 指定 %heading
+  予 commons.scss 內底个 h1~h5 繼承。伊漢字是用簡體中文 Microsoft Yahei，正體中文無合用。
+*/
+%heading {
+    font-family: tauhu-oo, "PingFang TC", STHeiti, "Helvetica Neue", "Source Sans Pro" , "Microsoft JhengHei UI", sans-serif;
+}
+
 blockquote {
   /* color: #5030f0; */
   /* color: #6040f5; */
