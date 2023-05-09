@@ -36,13 +36,14 @@ blogspot.com 部落閣中心是 Google 開个，咱个網域若共 Google Domain
 #### 基本環境
 
 我是用 Mac 系統，用 Linux 也差不多做法。若用 Windows 系統彼就差較遠，我無討論。
+以下个terminal指令攏是針對 Mac 來寫个：
 
 1. 安裝 Homebrew，予咱方便安裝各種開發工具。以下个指令攏是佇終端機軟體當中進行。
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 2. 透過 Homebrew 个 brew 指令來安裝 chruby 佮 ruby-install，目的就是欲安裝 Ruby
-程式環境，因為 Jekyll 就是用 Ruby 語言寫出來个軟體套件（叫做 gem）。
+程式環境，因為 Jekyll 就是用 Ruby 語言寫出來，包裝做一个 gem（Ruby 軟體套件）。
 ```
 brew install chruby ruby-install xz
 ruby-install ruby 3.1.4
@@ -65,7 +66,14 @@ gem install jekyll
 ```
 以上，請參考 [Jekyll 官方文件个安裝說明](https://jekyllrb.com/docs/installation/)。
 
+### 安裝 Chirpy 主題
+
+Chirpy 主題个作者有另外提供一个較方便新手落手个 Chirpy Starter 予儂安裝了後，
+做幾个仔簡單个設定，就會使開始進行上根本个工課：鋪文。我即个台語理想國个 repo
+就是對 Chirpy Starter 充實--來个。
+
 以下是 Jekyll Chirpy Starter 个原始說明文件：
+
 ---
 
 # Chirpy Starter [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)](https://rubygems.org/gems/jekyll-theme-chirpy) [![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
