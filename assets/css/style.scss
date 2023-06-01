@@ -16,7 +16,9 @@ $tab-count: {{ site.tabs | size | plus: 1 }}; // plus 1 for home tab
   予 commons.scss 內底个 h1~h5 繼承。伊漢字是用簡體中文 Microsoft Yahei，正體中文無合用。
 */
 %heading {
-    font-family: tauhu-oo, "PingFang TC", STHeiti, "Helvetica Neue", "Source Sans Pro" , "Microsoft JhengHei UI", sans-serif;
+    /* font-family: tauhu-oo, "PingFang TC", STHeiti, "Helvetica Neue", "Source Sans Pro" , "Microsoft JhengHei UI", sans-serif; */
+    font-family: tauhu-oo, "PingFang TC", "PingFang SC", "Microsoft JhengHei UI", "Microsoft YaHei UI", Arial, sans-serif;
+
 }
 
 blockquote {
@@ -30,11 +32,12 @@ blockquote {
   color: #8c5fe3;
   font-weight: 550;
   font-size:   1.12em; /* old value 1.2em */
-  font-family: tauhu-oo ,'TWKAI', 'Charis SIL', 'Dejavu Serif', 'Times New Roman', 'DFKai-SB', 'BiauKaiTC-Regular', serif;
+  /* font-family: tauhu-oo ,'TWKAI', 'Charis SIL', 'Dejavu Serif', 'Times New Roman', 'DFKai-SB', 'BiauKaiTC-Regular', serif; */
+  font-family: tauhu-oo, "PingFang TC", "PingFang SC", "Microsoft ZhengHei", "Microsoft YaHei", Arial, sans-serif;
 }
 
 body {
-  font-family: tauhu-oo, "PingFang TC", STHeiti, "Helvetica Neue", "Source Sans Pro" , "Microsoft JhengHei UI", sans-serif;
+  font-family: tauhu-oo, "Helvetica Neue", "PingFang TC", "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", "Source Sans Pro" , Arial, sans-serif;
 }
 
 .highgreen { color: #00a033; }
