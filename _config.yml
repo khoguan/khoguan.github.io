@@ -18,12 +18,14 @@ timezone: Asia/Taipei
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: 潘科元<br>台語文理想國新站 # the main title
+# the main title
+title: 潘科元台語文理想國
 
-tagline: 將舊站blog.xuite.net/khoguan个文章攏設法搬徙過來矣。後手閣有佇Facebook所寫个網誌東西愛整合。 # it will display as the sub-title
+# it will display as the sub-title
+tagline: 頭戴台灣天<br />跤踏台灣地<br />喙講台灣話<br />手寫台語文
 
 description: >- # used by seo meta and the atom feed
-  因為blog.xuite.net欲收擔矣，我重起一个潘科元台語文理想國新站，按算將我佇面冊个網誌也收入來。
+  因為中華電信部落閣「隨意窩」欲收擔矣，我重起一个潘科元台語文理想國新站，將舊站 blog.xuite.net/khoguan 个文章攏搬徙過來矣。後手閣有佇 Facebook 所寫个網誌東西愛整合。
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 #url: "https://khoguan.github.io"
