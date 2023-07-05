@@ -3,6 +3,7 @@
 bin
 tmp
 _drafts
+style.scss-test
 
 # Bundler cache
 .bundle

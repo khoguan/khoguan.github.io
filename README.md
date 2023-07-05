@@ -72,6 +72,16 @@ Chirpy 主題个作者有另外提供一个較方便新手落手个 Chirpy Start
 做幾个仔簡單个設定，就會使開始進行上根本个工課：鋪文。我即个台語理想國个 repo
 就是對 Chirpy Starter 充實--來个。
 
+### Chirpy 使用佮升級的細節（猶未寫）
+
+### Jekyll Markdown 个鋩角
+
+1. 欲予超連結佇新頁籤/視窗來扑開
+例：`[Google](https://google.com){:target="_blank"}`
+
+
+## 原始文件
+
 以下是 Jekyll Chirpy Starter 个原始說明文件：
 
 ---
