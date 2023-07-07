@@ -34,6 +34,10 @@ blockquote {
   font-size:   1.12em; /* old value 1.2em */
   /* font-family: tauhu-oo ,'TWKAI', 'Charis SIL', 'Dejavu Serif', 'Times New Roman', 'DFKai-SB', 'BiauKaiTC-Regular', serif; */
   font-family: tauhu-oo, "PingFang TC", "PingFang SC", "Microsoft ZhengHei", "Microsoft YaHei", Arial, sans-serif;
+
+  /* 原裝用'\f06a'是cirle-exclamation，愛改做circle-info */
+  @include prompt('info', '\f05a');
+
 }
 
 body {
