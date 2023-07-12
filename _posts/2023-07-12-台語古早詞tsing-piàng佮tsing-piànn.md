@@ -6,15 +6,15 @@ author: 潘科元
 categories: [語詞, 台語語詞探討]
 ---
 
-tsing-piàng 是「搶劫，尤其是指攻入厝內搶劫」个意思。做即種代誌个歹儂，
-就叫做 tsing-piàng-tsha̍t(賊)，tsing-piàng-tsha̍t 即種強盜定定會侵門踏戶，
+**tsing-piàng** 是「搶劫，尤其是指攻入厝內搶劫」个意思。做即種代誌个歹儂，
+就叫做 **tsing-piàng-tsha̍t**(賊)，tsing-piàng-tsha̍t 即種強盜定定會侵門踏戶，
 入去儂厝內搶劫。
 
-tsing-piàng-tsha̍t 另外一个近義詞是「強摃賊」（kiông-kòng-tsha̍t），
+tsing-piàng-tsha̍t 另外一个近義詞是「強摃賊」（**kiông-kòng-tsha̍t**），
 這是一般的\[tik\]个「強盜」。例句「強摃賊咧 tsing-piàng」，華譯：
 「強盜在打家劫舍。」
 
-tsing-piàng 有別个倚音異義个詞：tsing-piànn，這是「爭鬥、鬥爭」个意思，
+tsing-piàng 有別个倚音異義个詞：**tsing-piànn**，這是「爭鬥、鬥爭」个意思，
 佮犯罪行為个 tsing-piàng 無仝款！
 
 咱去揣白話字教會公報資料庫當中實際个用例，就會使了解 tsing-piàng 還
