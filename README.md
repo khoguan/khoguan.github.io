@@ -189,7 +189,7 @@ $ git push
 按呢就上傳去 GitHub 咱个網站 repo 內，會使進一步佇遐設定，
 來公開發佈咱个網站矣！
 
-詳細請參考 [Chiry 示範網站](https://chirpy.cotes.page/)个文件。 
+詳細請參考 [Chirpy 示範網站](https://chirpy.cotes.page/)个文件。 
 
 ### Jekyll Markdown 个鋩角
 
