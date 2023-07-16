@@ -80,7 +80,7 @@ Chirpy 主題个作者有另外提供一个較方便新手落手个 Chirpy Start
 
 ### 用 Chirpy Starter 做 template 佇 Github 建立 repo
 
-登入 GitHub，揣著 [**Chirpy Starter**](https://github.com/cotes2020/chirpy-starter){: target="_blank"}，點迄个鈕仔 <kbd>Use this template</kbd> > 
+登入 GitHub，揣著 [**Chirpy Starter**](https://github.com/cotes2020/chirpy-starter)，點迄个鈕仔 <kbd>Use this template</kbd> > 
 <kbd>Create a new repository</kbd>，共新建新个 repo 號名做 `username.github.io`，
 注意迄个 `username` 著愛用咱佇 GitHub 真正的 username。像我是用 `khoguan`
 做 username。
@@ -94,9 +94,10 @@ Chirpy 主題个作者有另外提供一个較方便新手落手个 Chirpy Start
 $ gh repo clone khoguan/khoguan.github.io
 ```
 
-就會佇當下个工作目錄內生出一份佮 GitHub 遐仝款个 `khoguan.github.io` 目錄。
+就會佇當下个目錄內生出一份佮 GitHub 遐仝款个 `khoguan.github.io` 目錄，
+以下就叫做「工作目錄」。
 
-了後，佇 clone 好勢个目錄下底，執行：
+了後，佇 clone 好勢个工作目錄下底，執行：
 
 ```console
 $ bundle
@@ -111,26 +112,30 @@ $ bundle info --path jekyll-theme-chirpy
 
 ### 照咱个需要，修改網路个參數
 
-佇本地端，第一步愛改个就是規个網站个設定檔 `_config.yml`。`Chirpy Starter`
-予咱个設定檔見本內底，有詳細說明每一項目个用途。主要愛改个項目有：
+佇工作目錄內底，第一步愛改个就是規个網站个設定檔 `_config.yml`。
+`Chirpy Starter` 予咱个設定檔見本內底，有詳細說明每一項目个用途。
+主要愛改个項目有：
 
 - `url`
 - `avatar`
 - `timezone`
 - `lang`
 
-`jekyll-theme-chirpy` 个目錄所囥个，是某一版本个 Chirpy theme 較固定个內容，
-`Chirpy Starter` 个目錄所囥个，相對來講，就是會使予咱修改个項目，咱嘛會使將
-`jekyll-theme-chirpy` 遐个一寡檔案，可比講 `_data/locales/zh-TW.yml` 複製過來
-`Chirpy Starter` 仝款个所在，修改做台語文个 locale（網站標題、訊息用台文顯示）。
+`jekyll-theme-chirpy` 个目錄所囥个，是某一版本个 Chirpy theme
+較固定个內容，`Chirpy Starter` 个目錄（也就是工作目錄）所囥个，
+相對來講，就是會使予咱修改个項目，咱嘛會使將 `jekyll-theme-chirpy`
+遐个一寡檔案，可比講 `_data/locales/zh-TW.yml` 複製過來工作目錄仝款个所在，
+修改做台語文个 locale，予網站標題、顯示訊息攏用台文顯示）。
 
 ### 鋪文！
 
-`Chirpy Starter` 目錄个 `_posts` 下底就是予咱建立咱个鋪文个所在。一鋪文一檔案，
-我个文章濟，所以有進一步照年代建立子目錄，像 `_posts/2006`、`_posts/2007` 等等。
-文檔通使用 Markdown 抑是 HTML 文字檔，Markdown 內底也接受直接用 HTML tags，
-真利便。無論用佗一種格式，文檔內底个頭前攏愛有 front matter，前後用
-`---` 隔開，內中記錄即篇鋪文个 metadata。可比講：
+工作目錄个 `_posts` 下底就是予咱建立咱个鋪文个所在。一鋪文一檔案，
+我个文章濟，所以有進一步照年代建立子目錄，像 `_posts/2006`、
+`_posts/2007` 等等。
+
+鋪文檔案通使用 Markdown 抑是 HTML 文字檔，Markdown 內底也接受直接用
+HTML tags，真利便。無論用佗一種格式，文檔內底个頭前攏愛有 front matter，
+前後用 `---` 隔開，內中記錄即篇鋪文个 metadata。可比講：
 
 ```markdown
 ---
@@ -153,7 +158,7 @@ tags: [教會公報]
 
 檔名个格式就親像 `2023-07-16-搜揣教會公報資料庫个撇步.md`。
 
-進一步个細節，請參考 [Chiry 示範網站](https://chirpy.cotes.page/){: target="_blank"}个文件。 
+進一步个細節，請參考 [Chiry 示範網站](https://chirpy.cotes.page/)个文件。 
 
 ### Jekyll Markdown 个鋩角
 
