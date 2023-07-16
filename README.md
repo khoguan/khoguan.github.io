@@ -130,8 +130,8 @@ $ bundle info --path jekyll-theme-chirpy
 ### 鋪文！
 
 工作目錄个 `_posts` 下底就是予咱建立咱个鋪文个所在。一鋪文一檔案，
-我个文章濟，所以有進一步照年代建立子目錄，像 `_posts/2006`、
-`_posts/2007` 等等。
+我个文章濟，所以有進一步照年代建立子目錄，像 `_posts/2006/`、
+`_posts/2007/` 等等。
 
 鋪文檔案通使用 Markdown 抑是 HTML 文字檔，Markdown 內底也接受直接用
 HTML tags，真利便。無論用佗一種格式，文檔內底个頭前攏愛有 front matter，
@@ -158,7 +158,38 @@ tags: [教會公報]
 
 檔名个格式就親像 `2023-07-16-搜揣教會公報資料庫个撇步.md`。
 
-進一步个細節，請參考 [Chiry 示範網站](https://chirpy.cotes.page/)个文件。 
+### 試運轉
+
+拄開始，著愛先佇本地端个電腦試看網站建置會起來袂，才通上傳去 GitHub。
+照頭前所寫，修改 `_config.yml`，也建立幾篇仔鋪文了後，就會使試運轉看覓。
+
+```console
+$ bundle exec jekyll s
+```
+伊執行个訊息若出現親像按呢个文字：
+```
+     Generating...
+                   done in 94.329 seconds.
+```
+就表示初步成功矣。會使開瀏覽器連去 `http://127.0.0.1:4000/`
+看咱千辛萬苦才生出來个網站囉！
+（訊息其中个 94.329 是秒數，各站个文件數量無仝，各儂个電腦規格也無仝，
+欲生出網頁个秒數自然就無仝。）
+
+閣來就是透過 `git` 指令來 `add`、`commit`、`push` 等等，佇工作目錄遐：
+
+```console
+$ git add _console.yml
+$ git commit -m '設定_console.yml'
+$ git add _posts/
+$ git commit -m '建立鋪文'
+$ git push
+```
+
+按呢就上傳去 GitHub 咱个網站 repo 內，會使進一步佇遐設定，
+來公開發佈咱个網站矣！
+
+詳細請參考 [Chiry 示範網站](https://chirpy.cotes.page/)个文件。 
 
 ### Jekyll Markdown 个鋩角
 
