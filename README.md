@@ -192,9 +192,32 @@ $ git push
 
 詳細請參考 [Chirpy 示範網站](https://chirpy.cotes.page/)个文件。 
 
-### Jekyll Markdown 个鋩角
+## Jekyll 佮 Chirpy 使用个鋩角
 
-1. 欲予超連結佇新頁籤/視窗來扑開
+1. 逐遍執行 `jekyll` 指令，頭前攏愛扑 `bundle exec` 才袂用著毋著个版本，
+真費氣。會使得將版本符合个相關指令，裝入來工作目錄个 `bin/` 下底：
+
+```
+$ bundle install --binstubs
+...
+$ ls ./bin
+bundle		jekyll		listen		racc		safe_yaml
+htmlproofer	kramdown	nokogiri	rougify		sass
+```
+
+2. `htmlproofer` 真有路用，`Gemfile` 內指定愛用 "~> 3.18"，才會檢查
+html 格式有正確無。`htmlproofer` v.4 以後个版本講因為 HTML5 browser 較寬容，
+所以就無閣做即種檢查矣。GitHub 遐負責自動部署網站个 Action flow 當中，
+測試階段有一步就是執行 `htmlproofer`。咱佇本地端用頭前所講个指令試運轉無問題，
+但是往往會佇 GitHub 遐予 `htmlproofer` 掠包、袂過關。所以三不五時著佇本地端執行
+`htmlproofer` 檢查一下：
+
+```
+$ bin/jekyll build  # build 會使簡單扑 b
+$ bin/htmlproofer _site --disable-external --check-html --allow_hash_href
+```
+
+3. Markdown 格式，欲予超連結佇新頁籤/視窗來扑開
 例：`[Google](https://google.com){:target="_blank"}`
 
 ## 原始文件
