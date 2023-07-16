@@ -38,7 +38,8 @@ blogspot.com 部落閣中心是 Google 開个，咱个網域若共 Google Domain
 我是用 Mac 系統，用 Linux 也差不多做法。若用 Windows 系統彼就差較遠，我無討論。
 以下个terminal指令攏是針對 Mac 來寫个：
 
-1. 安裝 Homebrew，予咱方便安裝各種開發工具。以下个指令攏是佇終端機軟體當中進行。
+1. 安裝 Homebrew，予咱方便安裝各種開發工具。以下个指令攏是佇終端機軟體當中進行。每一條指令頭前个 `$` 號是指終端機个提示號(prompt)，毋是實際指令个一部份。
+
 ```console
 $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
