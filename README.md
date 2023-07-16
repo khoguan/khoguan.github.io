@@ -39,46 +39,126 @@ blogspot.com 部落閣中心是 Google 開个，咱个網域若共 Google Domain
 以下个terminal指令攏是針對 Mac 來寫个：
 
 1. 安裝 Homebrew，予咱方便安裝各種開發工具。以下个指令攏是佇終端機軟體當中進行。
+```console
+$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
+
 2. 透過 Homebrew 个 brew 指令來安裝 chruby 佮 ruby-install，目的就是欲安裝 Ruby
 程式環境，因為 Jekyll 就是用 Ruby 語言寫出來，包裝做一个 gem（Ruby 軟體套件）。
+```console
+$ brew install chruby ruby-install xz
+$ ruby-install ruby 3.1.4
 ```
-brew install chruby ruby-install xz
-ruby-install ruby 3.1.4
-```
+
 設定 shell 个執行環境：
+
+```console
+$ echo "source $(brew --prefix)/opt/chruby/share/chruby/chruby.sh" >> ~/.bash_profile
+$ echo "source $(brew --prefix)/opt/chruby/share/chruby/auto.sh" >> ~/.bash_profile
+$ echo "chruby ruby-3.1.4" >> ~/.bash_profile # run 'chruby' to see actual version
 ```
-echo "source $(brew --prefix)/opt/chruby/share/chruby/chruby.sh" >> ~/.bash_profile
-echo "source $(brew --prefix)/opt/chruby/share/chruby/auto.sh" >> ~/.bash_profile
-echo "chruby ruby-3.1.4" >> ~/.bash_profile # run 'chruby' to see actual version
-```
-以上是使用 bash 个儂所需要个指令，若是用 zsh 者，將 .bash_profile 改做 .zshrc 就著。
+
+以上是使用 `bash` 个儂所需要个指令，若是用 `zsh` 者，將 `.bash_profile` 改做 `.zshrc` 就著。
 
 開掉 terminal，重開 terminal，檢查 ruby 版本是毋是 3.1.4
+
+```console
+$ ruby -v
 ```
-ruby -v
-```
+
 3. 安裝 Jekyll
-```
-gem install jekyll
+```console
+$ gem install jekyll
 ```
 以上，請參考 [Jekyll 官方文件个安裝說明](https://jekyllrb.com/docs/installation/)。
 
-### 安裝 Chirpy 主題
+## 安裝 Chirpy 主題
 
 Chirpy 主題个作者有另外提供一个較方便新手落手个 Chirpy Starter 予儂安裝了後，
 做幾个仔簡單个設定，就會使開始進行上根本个工課：鋪文。我即个台語理想國个 repo
 就是對 Chirpy Starter 充實--來个。
 
-### Chirpy 使用佮升級的細節（猶未寫）
+### 用 Chirpy Starter 做 template 佇 Github 建立 repo
+
+登入 GitHub，揣著 [**Chirpy Starter**](https://github.com/cotes2020/chirpy-starter){: target="_blank"}，點迄个鈕仔 <kbd>Use this template</kbd> > 
+<kbd>Create a new repository</kbd>，共新建新个 repo 號名做 `username.github.io`，
+注意迄个 `username` 著愛用咱佇 GitHub 真正的 username。像我是用 `khoguan`
+做 username。
+
+## 佇 local 電腦建置網站程式佮內容
+
+將頂段新建立个 repo 也佇家己 local 个電腦 clone 一份，親像我是佇我个 Mac
+个 `terminal` 程式內底扑：
+
+```console
+$ gh repo clone khoguan/khoguan.github.io
+```
+
+就會佇當下个工作目錄內生出一份佮 GitHub 遐仝款个 `khoguan.github.io` 目錄。
+
+了後，佇 clone 好勢个目錄下底，執行：
+
+```console
+$ bundle
+```
+
+指令，伊就會按照目錄中迄个 `Gemfile` 个內容來安裝 Chirpy theme 佮伊需要个相關套件。
+欲查 Chirpy theme 安裝去佗位，就扑：
+
+```console
+$ bundle info --path jekyll-theme-chirpy
+```
+
+### 照咱个需要，修改網路个參數
+
+佇本地端，第一步愛改个就是規个網站个設定檔 `_config.yml`。`Chirpy Starter`
+予咱个設定檔見本內底，有詳細說明每一項目个用途。主要愛改个項目有：
+
+- `url`
+- `avatar`
+- `timezone`
+- `lang`
+
+`jekyll-theme-chirpy` 个目錄所囥个，是某一版本个 Chirpy theme 較固定个內容，
+`Chirpy Starter` 个目錄所囥个，相對來講，就是會使予咱修改个項目，咱嘛會使將
+`jekyll-theme-chirpy` 遐个一寡檔案，可比講 `_data/locales/zh-TW.yml` 複製過來
+`Chirpy Starter` 仝款个所在，修改做台語文个 locale（網站標題、訊息用台文顯示）。
+
+### 鋪文！
+
+`Chirpy Starter` 目錄个 `_posts` 下底就是予咱建立咱个鋪文个所在。一鋪文一檔案，
+我个文章濟，所以有進一步照年代建立子目錄，像 `_posts/2006`、`_posts/2007` 等等。
+文檔通使用 Markdown 抑是 HTML 文字檔，Markdown 內底也接受直接用 HTML tags，
+真利便。無論用佗一種格式，文檔內底个頭前攏愛有 front matter，前後用
+`---` 隔開，內中記錄即篇鋪文个 metadata。可比講：
+
+```markdown
+---
+layout: post
+title: 搜揣教會公報資料庫个撇步 
+date: 2023-07-16
+author: 潘科元
+categories: [文獻, 台語白話字文獻]
+tags: [教會公報]
+---
+## 教會公報紹介
+內文第一段，紹介教會公報个來歷。
+
+## 教會公報相關个網站
+有官方網站，佮別个單位所做个查詢系統。
+
+## 教會公報全文檢索網紹介
+設佇中研院。
+```
+
+檔名个格式就親像 `2023-07-16-搜揣教會公報資料庫个撇步.md`。
+
+進一步个細節，請參考 [Chiry 示範網站](https://chirpy.cotes.page/){: target="_blank"}个文件。 
 
 ### Jekyll Markdown 个鋩角
 
 1. 欲予超連結佇新頁籤/視窗來扑開
 例：`[Google](https://google.com){:target="_blank"}`
-
 
 ## 原始文件
 
