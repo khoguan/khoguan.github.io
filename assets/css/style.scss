@@ -36,7 +36,8 @@ blockquote {
   font-family: tauhu-oo, "PingFang TC", "PingFang SC", "Microsoft ZhengHei", "Microsoft YaHei", Arial, sans-serif;
 
   /* 直接將prompt-tip个icon lightbulb \f0eb 改做book-open \f518 */
-  @include prompt('tip', '\f518');
+  /* 2023-07-19 prompt-tip 个icon 改做 user-pen \f4ff */
+  @include prompt('tip', '\f4ff');
   /* 原裝用'\f06a'是cirle-exclamation，愛改做circle-info */
   @include prompt('info', '\f05a');
 
