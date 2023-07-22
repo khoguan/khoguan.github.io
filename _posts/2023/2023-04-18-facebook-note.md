@@ -3,7 +3,7 @@ title: 潘科元面冊網誌(Facebook Note)文章總表
 author: 潘科元
 date: 2023-04-18 23:50:00 +0800
 categories: [0總類]
-tags: [facebook]     # TAG names should always be lowercase
+tags: [Facebook]
 pin: true
 image: /assets/too/大雪山1200x630.jpg
 ---
