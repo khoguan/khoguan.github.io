@@ -220,6 +220,19 @@ $ bin/htmlproofer _site --disable-external --check-html --allow_hash_href
 3. Markdown 格式，欲予超連結佇新頁籤/視窗來扑開
 例：`[Google](https://google.com){:target="_blank"}`
 
+4. 四種 blockquote 个格式  
+是透過四種 class 个名稱來指定，若佇 MD 檔案內，就佇 `> `所引𤆬个引用文字下底tsuā
+指定以下四種之一：
+
+      - `{: .prompt-tip }`
+      - `{: .prompt-info }`
+      - `{: .prompt-warning }`
+      - `{: .prompt-danger }`
+
+    若佇 HTML 檔內，就是 `class="prompt-tip"` 等等。我已經將其中个 tip 佮 info
+    个圖樣換過矣，tip 類个圖樣換做 `user-pen`, info 類个換做 `circle-info`，
+    遮个名稱是來自 <https://fontawesome.com/>.
+
 ## 原始文件
 
 以下是 Jekyll Chirpy Starter 个原始說明文件：
