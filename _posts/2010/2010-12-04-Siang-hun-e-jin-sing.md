@@ -6,6 +6,7 @@ author: 潘科元
 categories: [生活台文, 活咧]
 tags: [面冊網誌]
 ---
+## 本文
 
 Tsuân-lô Tâi-gí-bûn ê su-siá kah ua̍t-tho̍k su-iàu siong-tong sî-kan ê hùn-liān, pīng m̄-sī lí ē-hiáu kóng Tâi-gí, mā ū o̍h-kuè Ing-gí, iah sī kok-tsè-im-phiau, tio̍h khuànn ū lōo-lâi\--ê.
 
@@ -14,6 +15,8 @@ Siat-sú lí tī siā-kau-bāng-tsām tíng-kuân siat tsi̍t-ê kháu-tsō, uâ
 Koh ū tsi̍t-tiám: lí ê tshin-lâng (iû-kî sī ang-bóo), tông-sū, lóng bē-hiáu īng, mā m̄-khíng o̍h Lô-má-jī.
 
 Án-ne, huān-sè lí tio̍h ē-tàng kiàn-li̍p tsi̍t ê thuat-khui hiān-si̍t ê sin-hūn, ua̍h-tshut siang-hūn ê jîn-sing. Sam-put-gōo-sî, thìng-hó tuì bô-bī-bô-sòo ê ji̍t-tsí tong-tiong tit-tio̍h siau-tháu.
+
+---
 
 ## 面冊網誌留言
 
