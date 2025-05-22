@@ -140,6 +140,8 @@ kramdown:
     block:
       line_numbers: true
       start_line: 1
+  typographic_symbols:
+    ndash: "--"
 
 collections:
   tabs:
